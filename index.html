@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BiblioPRO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23120a28'/%3E%3Cpath d='M8 10c3 0 5-1.4 8-1.4S21 10 24 10v13c-3 0-5-1.4-8-1.4S11 23 8 23V10z' fill='none' stroke='%23c56dff' stroke-width='2'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="stage">
+    <div class="bg-glow glow-a"></div>
+    <div class="bg-glow glow-b"></div>
+    <div class="bg-glow glow-c"></div>
+
+    <aside class="content-cloud cloud-left" aria-hidden="true">
+      <figure class="tile t1"><img src="covers/1018345.jpg" alt=""></figure>
+      <figure class="tile t2"><img src="covers/1018363.jpg" alt=""></figure>
+      <figure class="tile t3"><img src="covers/1018361.jpg" alt=""></figure>
+      <figure class="tile t4"><img src="covers/1018368.jpg" alt=""></figure>
+      <figure class="tile t5"><img src="covers/1018352.jpg" alt=""></figure>
+    </aside>
+
+    <aside class="content-cloud cloud-right" aria-hidden="true">
+      <figure class="tile t6"><img src="covers/1018364.jpg" alt=""></figure>
+      <figure class="tile t7"><img src="covers/1018353.jpg" alt=""></figure>
+      <figure class="tile t8"><img src="covers/1018365.jpg" alt=""></figure>
+      <figure class="tile t9"><img src="covers/1018369.jpg" alt=""></figure>
+      <figure class="tile t10"><img src="covers/1018345.jpg" alt=""></figure>
+    </aside>
+
+    <main class="app">
+      <header class="topbar">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">
+            <svg viewBox="0 0 36 36" fill="none">
+              <circle cx="18" cy="18" r="18" fill="#1a1233"/>
+              <circle cx="18" cy="18" r="17" stroke="#b56af0" stroke-width="1.2" opacity=".45"/>
+              <path d="M10 13c4.2 0 6.6-2 8-2s3.8 2 8 2v12.2c-4.2 0-6.6-2-8-2s-3.8 2-8 2V13z" stroke="#d7a6ff" stroke-width="1.8"/>
+              <path d="M18 11v12.2" stroke="#d7a6ff" stroke-width="1.8"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <strong>BiblioPRO</strong>
+          </div>
+        </div>
+      </header>
+
+      <section class="card" id="welcomeCard">
+        <p class="eyebrow">Biblioteca digital</p>
+        <h1 class="brand-hero">BIBLIOPRO</h1>
+        <p class="lead">A BiblioPRO é um serviço de organização de conteúdos que reúne materiais de <em>diferentes áreas</em> em uma única plataforma.</p>
+        <p class="body-copy">Em vez de perder tempo procurando conteúdo em vários lugares, você encontra tudo organizado em <strong>dez grupos</strong>, em um só lugar.</p>
+
+        <div class="access-head">
+          <span class="key" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M8 14a4 4 0 1 1 3.5-5.9L18 14.6V18h-3v2h-2.4L11.9 18A4 4 0 0 1 8 14z" stroke="#c56dff" stroke-width="1.8"/><circle cx="8" cy="14" r="1.2" fill="#c56dff"/></svg>
+          </span>
+          <h2>Seus acessos</h2>
+        </div>
+        <p class="section-kicker">Dez grupos. Um único lugar.</p>
+        <div class="groups" id="groups"></div>
+      </section>
+
+      <section class="card section-card" id="socialProof">
+        <p class="eyebrow">Depois do acesso</p>
+        <h2 class="section-title">Quem já está do lado de dentro</h2>
+        <p class="section-note">Estrutura reservada para depoimentos reais. Os cards abaixo são placeholders e serão substituídos.</p>
+        <div class="proof-grid">
+          <!-- PLACEHOLDER: substituir por depoimento real -->
+          <article class="proof-card">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <div class="proof-avatar" aria-hidden="true"></div>
+            <p class="proof-placeholder">Espaço para depoimento real</p>
+            <span class="proof-meta">Nome a inserir</span>
+          </article>
+          <!-- PLACEHOLDER: substituir por depoimento real -->
+          <article class="proof-card">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <div class="proof-avatar" aria-hidden="true"></div>
+            <p class="proof-placeholder">Espaço para depoimento real</p>
+            <span class="proof-meta">Nome a inserir</span>
+          </article>
+          <!-- PLACEHOLDER: substituir por depoimento real -->
+          <article class="proof-card">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <div class="proof-avatar" aria-hidden="true"></div>
+            <p class="proof-placeholder">Espaço para depoimento real</p>
+            <span class="proof-meta">Nome a inserir</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="card section-card" id="aiSection">
+        <p class="eyebrow">Assistente</p>
+        <h2 class="section-title">Ficou com alguma dúvida?</h2>
+        <p class="section-sub">Pergunte para a IA da BiblioPRO.</p>
+        <div class="chat" id="chat">
+          <div class="chat-head">
+            <span class="chat-dot"></span>
+            IA da BiblioPRO
+          </div>
+          <div class="chat-log" id="chatLog" aria-live="polite">
+            <div class="bubble bubble-ai">Posso responder só com o que está na base da BiblioPRO. Se eu não tiver a informação, eu digo isso.</div>
+          </div>
+          <div class="chips" id="chatChips">
+            <button type="button" data-q="Como funciona a BiblioPRO?">Como funciona a BiblioPRO?</button>
+            <button type="button" data-q="O que encontro nos grupos?">O que encontro nos grupos?</button>
+            <button type="button" data-q="Como recebo meu acesso?">Como recebo meu acesso?</button>
+            <button type="button" data-q="Tem conteúdo de inglês?">Tem conteúdo de inglês?</button>
+          </div>
+          <form class="chat-form" id="chatForm">
+            <input id="chatInput" type="text" autocomplete="off" maxlength="500" placeholder="Escreva sua pergunta" />
+            <button type="submit" aria-label="Enviar">Enviar</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="card section-card cta-card" id="finalCta">
+        <p class="eyebrow">Acesso</p>
+        <h2 class="section-title">Pare de procurar. Comece a explorar.</h2>
+        <p class="body-copy">A BiblioPRO reúne conteúdos de diferentes áreas em <strong>dez grupos</strong>, dentro de uma única plataforma.</p>
+        <a class="cta-btn" id="checkoutBtn" href="#" data-checkout="">ADQUIRIR MEU ACESSO</a>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
